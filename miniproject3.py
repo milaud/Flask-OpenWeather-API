@@ -8,8 +8,11 @@ import pandas as pd
 import StringIO
 import base64
 import datetime
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 
 app = Flask(__name__)
 
