@@ -1,4 +1,4 @@
-web: gunicorn -w 1 app:miniproject3
+web: gunicorn miniproject:app
 
 [requires]
 python_version = "2.7"

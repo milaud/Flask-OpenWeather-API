@@ -118,5 +118,5 @@ def internal_server_error(e):
 	
 if __name__ == '__main__':
   #app.debug = True	
-  app.run(port=33507)
+  app.run(port=8000)
 
