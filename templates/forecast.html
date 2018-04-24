@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <h1>Weather in {{city}}</h1>
+    <h2>Current Temperature: {{temp}}</h2>
+    <img src="http://openweathermap.org/img/w/{{icon}}.png">
+    <h2>Current Conditions: {{conditions}}</h2>
+    <h2>Five Day Forecast:</h2>
+    <img src="data:image/png;base64, {{ plot_url }}">
+
+</body>
+
+</html>
